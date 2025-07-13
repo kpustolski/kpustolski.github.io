@@ -18,8 +18,7 @@
     <body>
         <!-- Navigation -->
         <div class="container">
-            <header
-            class="d-flex flex-wrap justify-content-center py-3 mb-4 mt-3 border-bottom">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 mt-3 border-bottom">
                 <a
                     href="index.html"
                     class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
@@ -48,26 +47,29 @@
                 <div class="row">
                     <div class="col-2">
                         <div class="sticky-top d-none d-lg-block">
-                            <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                            <nav id="navbar-tableofcontents" class="flex-column align-items-stretch pe-4 border-end">
                                 <nav class="nav nav-pills flex-column">
-                                    <a class="nav-link" href="#item-1">Item 1</a>
+                                    <a class="nav-link mt-3" href="#overview">Stepstone Island</a>
+                                    <a class="nav-link" href="#about">About</a>
+                                    <a class="nav-link" href="#ideation">Ideation</a>
+                                    <a class="nav-link" href="#game-design-and-development">Game Design & Development</a>
                                     <nav class="nav nav-pills flex-column">
-                                        <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
-                                        <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+                                        <a class="nav-link ms-3" href="#gdd-early-prototypes">Early Prototypes</a>
+                                        <a class="nav-link ms-3" href="#gdd-game-loop">Game Loop</a>
+                                        <a class="nav-link ms-3" href="#gdd-character-design">Character Design</a>
+                                        <a class="nav-link ms-3" href="#gdd-concept-art">Concept Art</a>
+                                        <a class="nav-link ms-3" href="#gdd-music-and-sound-design">Music & Sound Design</a>
+                                        <a class="nav-link ms-3" href="#gdd-playtesting">Playtesting</a>
+                                        <a class="nav-link ms-3" href="#gdd-work-in-progress-pictures">Work In Progress Pictures</a>
                                     </nav>
-                                        <a class="nav-link" href="#item-2">Item 2</a>
-                                        <a class="nav-link" href="#item-3">Item 3</a>
-                                    <nav class="nav nav-pills flex-column">
-                                        <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
-                                        <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
-                                    </nav>
+                                    <a class="nav-link" href="#presentation">Presentation</a>
                                 </nav>
                             </nav>
                         </div>
                     </div>
 
-                    <div class="col col-lg-10">
-                        <div class="container mb-3">
+                    <div class="col col-lg-10" data-bs-spy="scroll" data-bs-target="#navbar-tableofcontents" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+                        <div id="overview" class="container mb-3 pb-3">
                             <div class="row">
                                 <h1>Stepstone Island</h1>
                             </div>
@@ -98,9 +100,7 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>
                     
-                        <div class="container">
                             <div class="row row-cols-1 row-cols-lg-3 g-2 g-lg-3 py-3">
                                 <div class="col">
                                     <figure class="text-center">
@@ -145,10 +145,8 @@
                                     </figure>                            
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="container my-3 py-3 border-bottom">
-                            <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3 py-3">
+                            <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3 py-3 border-bottom">
                                 <div class="col">
                                     <a href="../images/projects/stepstoneisland/gallery_01.png" data-toggle="lightbox" data-gallery="main-gallery">
                                         <img src="../images/projects/stepstoneisland/gallery_01.png" class="img-fluid rounded" alt="gallery_01.png">
@@ -187,7 +185,7 @@
                             </div>
                         </div>
 
-                        <div class="container my-3 py-3 border-bottom">
+                        <div id="about" class="container my-3 py-3 border-bottom">
                             <div class="row">
                                 <h2> About </h2>
                             </div>
@@ -221,7 +219,7 @@
                             </div>
                         </div>
 
-                        <div class="container my-3 py-3 border-bottom">
+                        <div id="ideation" class="container my-3 py-3 border-bottom">
                             <div class="row">
                                 <h2> Ideation </h2>
                             </div>
@@ -260,11 +258,11 @@
                             </div>
                         </div>
 
-                        <div class="container my-3 py-3 border-bottom">
+                        <div id="game-design-and-development" class="container my-3 py-3 border-bottom">
                             <div class="row">
                                 <h2> Game Design & Development </h2>
                             </div>
-                            <div class="row py-3">
+                            <div id="gdd-early-prototypes" class="row py-3">
                                 <div class="col">
                                     <h3 class="pb-3">Early Prototypes</h3>
                                     <p>
@@ -304,7 +302,7 @@
                                     <figcaption class="figure-caption text-center py-3">This was a paper prototype of Stepstone Island from Fall 2017. This was super useful for brainstorming with the team.</figcaption>
                                 </div>  
                             </div>
-                            <div class="row row-cols-1 py-3 row-cols-lg-2">
+                            <div id="gdd-game-loop" class="row row-cols-1 py-3 row-cols-lg-2">
                                 <div class="col pe-5">
                                     <h3 class="pb-3">Game Loop</h3>
                                     <p>
@@ -330,7 +328,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="row row-cols-1 g-2 g-lg-3 py-3">
+                            <div id="gdd-character-design" class="row row-cols-1 g-2 g-lg-3 py-3">
                                 <div class="col">
                                     <h3 class="pb-3">Character Design</h3>
                                     <p>
@@ -360,7 +358,7 @@
                                     <figcaption class="figure-caption text-center py-3">Olly's final design (by Steven Sugar).</figcaption>
                                 </div>
                             </div>
-                            <div class="row py-3">
+                            <div id="gdd-concept-art" class="row py-3">
                                 <div class="col">
                                     <h3 class="pb-3">Concept Art</h3>
                                     <p>
@@ -389,7 +387,7 @@
                                 <figcaption class="figure-caption text-center py-3">For each asset, Steven requested I first draw a quick sketch of the item so that he had a reference of what to create. In addition, each item was classified as small, medium, or large depending on the number of tiles they took up on the tile map.</figcaption>
                                 </div>
                             </div>
-                            <div class="row py-3">
+                            <div id="gdd-music-and-sound-design" class="row py-3">
                                 <div class="col">
                                     <h3 class="pb-3">Music & Sound Design</h3>
                                     <p>
@@ -405,7 +403,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 py-3">
+                            <div id="gdd-playtesting" class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 py-3">
                                 <div class="col pe-5">
                                     <h3 class="pb-3">Playtesting</h3>
                                     <p>
@@ -430,7 +428,7 @@
                                     <figcaption class="figure-caption text-center py-3">Playtest answers to "If you could sum up your experience in three words, what would those three words be?" from the post-playtest survey.</figcaption>
                                 </div>
                             </div>
-                            <div class="row row-cols-1 row-cols-lg-1 g-2 g-lg-3 py-3">
+                            <div id="gdd-work-in-progress-pictures" class="row row-cols-1 row-cols-lg-1 g-2 g-lg-3 py-3">
                                 <h3>Work In Progress Pictures</h3>
                                     <p>
                                         I took a screenshot every week over the course of development to show progress over time. All work in progress pictures can be found in this google slideshow (TBD).
@@ -443,13 +441,12 @@
                             </div>
                         </div>
 
-                        <div class="container my-3 py-3">
+                        <div id="presentation" class="container my-3 py-3">
                             <div class="row">
                                 <h2> Presentation </h2>
                             </div>
                             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 py-3">
                                 <div class="col pe-5">
-                                    <h3 class="pb-3">Showing It Off</h3>
                                     <p>
                                         Because Stepstone Island revolved so much around one's personal fitness, I made the
                                         decision to publish it on the Apple App Store. This way people could easily download it
