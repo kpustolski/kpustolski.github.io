@@ -42,6 +42,9 @@
             <symbol id="arrow-left-circle" viewBox="0 0 16 16"> 
                 <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
             </symbol>
+            <symbol id="arrow-up-circle-fill" viewBox="0 0 16 16"> 
+                <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+            </symbol>
         </svg>
 
         <!-- Navigation -->
@@ -198,28 +201,42 @@
                         </div>
                     </div>
                 </div>
+                <!-- Quick Scroll Up -->
+                <div class="container-fluid fixed-bottom d-lg-none">
+                    <div class="d-flex justify-content-end">
+                        <div class="py-2 px-3">
+                            <a class="fs-1 text-decoration-none me-md-auto" href="#">
+                                <span class="icon-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-controller" viewBox="0 0 16 16">
+                                    <use href="#arrow-up-circle-fill"></use>
+                                </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </main>
-      </div>
-
-      <!-- Footer -->
-    <div class="container">
-        <div class="col py-3 my-4">
-            <footer class="text-muted bg-greyLightBlue">
-                <div class="d-flex justify-content-center">
-                    <p class="smallText">Katie Pustolski 2025</p>
-                <div>
-            </footer>
         </div>
-    </div>
 
-    <!-- Bootstrap -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-      crossorigin="anonymous"
-    ></script>
-    <!-- bs5-lightbox -->
-    <!-- By  Travis Aaron Wagner: https://trvswgnr.github.io/bs5-lightbox/ -->
-    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.5/dist/index.bundle.min.js"></script>
-  </body>
+        <!-- Footer -->
+        <div class="container">
+            <div class="col py-3 my-4">
+                <footer class="text-muted bg-greyLightBlue">
+                    <div class="d-flex justify-content-center">
+                        <p class="smallText">Katie Pustolski 2025</p>
+                    <div>
+                </footer>
+            </div>
+        </div>
+
+        <!-- Bootstrap -->
+        <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"
+        ></script>
+        <!-- bs5-lightbox -->
+        <!-- By  Travis Aaron Wagner: https://trvswgnr.github.io/bs5-lightbox/ -->
+        <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.5/dist/index.bundle.min.js"></script>
+    </body>
 </html>
