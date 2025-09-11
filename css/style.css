@@ -1,36 +1,31 @@
 
-/* Text */
-
-h3 {
-    /* font-size: 20px;
-    font-variant-caps: all-small-caps;
-    font-weight: 400;
-    color: forestgreen; */
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden;
 }
 
-/* 
-p {
-  font-family: Raleway;
-  font-size: 14px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 20px;
+.card:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
-h1 {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variant: normal;
-  line-height: 26.4px;
-  font-weight: 700;
-  font-size: 24px;
+.card img{
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
-h2 {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: bold;
-} */
+.card:hover img {
+  transform: scale(1.02);
+}
+
+.img-box {
+  overflow: hidden;
+}
+
+.img-box a img {
+    margin: 5px 0px 5px 0px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.img-box a img:hover {
+    transform: scale(1.02);
+}
