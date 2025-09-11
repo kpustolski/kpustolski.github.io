@@ -1,3 +1,7 @@
+.section-header {
+  font-weight: 600;
+  font-size: 2em;
+}
 
 .card {
   transition: transform 0.3s, box-shadow 0.3s;
