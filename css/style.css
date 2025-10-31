@@ -1,8 +1,57 @@
-/* Headers */
-.section-header {
-  /* font-weight: 600; */
-  font-size: 1.5em;
+hr {
+    /* visibility: hidden; */
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 50%;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(16, 152, 109, 0.75), rgba(255, 255, 255, 0));
+}
+/* Nav */
+.name-title {
+  color: #00A3BA;
+  /* color: white; */
+  font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.name-title:hover {
+  opacity: 90%;
+}
+
+/* Headers */
+.section-header h1 {
+  color: #00A3BA;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.section-header p {
+  /* font-family: 'Playfair Display', sans-serif; */
+  font-weight: normal;
+  /* color: #3a3a3a; */
+  font-size: 18px;
+}
+
+.index-game-title h1 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: #00A3BA;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.index-game-title p {
+  /* font-family: 'Playfair Display', sans-serif; */
+  font-weight: normal;
+  /* color: #3a3a3a; */
 }
 
 /* Cards */
@@ -36,9 +85,4 @@
 
 .img-box a img:hover {
     transform: scale(1.02);
-}
-
-/* Nav Buttons */
-.nav-pills {
-
 }
