@@ -12,8 +12,17 @@
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
         crossorigin="anonymous"
         />
+
+        <!-- Style -->
         <link href="css/style.css" rel="stylesheet" />
-        <script src="js/colorpicker.js"></script>
+        
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        
+        <!-- Color Picker js -->
+        <script src="../js/colorpicker.js"></script>
     </head>
 
     <body>
@@ -43,7 +52,7 @@
             <header class="pt-3 my-3 border-bottom container-fluid">
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
-                        <a class="fs-4 d-flex link-body-emphasis text-decoration-none mb-3 mb-md-0 me-md-auto" href="index.html">
+                        <a class="fs-4 d-flex link-body-emphasis text-decoration-none mb-3 mb-md-0 me-md-auto name-title" href="index.html">
                             <span class="icon-link">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-controller" viewBox="0 0 16 16">
                                 <use href="#game-controller"></use>
@@ -55,7 +64,7 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div id="navbarToggle" class="collapse navbar-collapse justify-content-sm-end py-3">
-                            <ul class="nav nav-pills flex-column flex-lg-row">
+                            <ul class="nav nav-underline flex-column flex-lg-row">
                                 <li class="nav-item px-2">
                                     <a class="nav-link" aria-current="page" href="Index.html">Projects</a>
                                 </li>
@@ -113,15 +122,16 @@
         </div>
 
         <!-- Body -->
-        <div class="container my-5">
+        <div class="container mb-5">
             <main>
                 <div class="row">
-                    <div class="col-md-6 pb-3">
-                        <h1 class="display-3">Hello there!</h1>
-                        <h1 class="lead text-body-secondary">I'm Katie Pustolski, a game developer in Los Angeles, CA</h1>
+                    <div class="col-lg-8 p-3">
+                        <div class="section-header">
+                            <h1>Hello there!</h1>
+                        </div>
                         <div class="pt-4 pb-3">
                             <p>
-                                My name is Katie and I am currently a software engineer in the
+                                My name is Katie and I'm currently a software engineer in the
                                 games industry. My personal projects tend to lean toward a cute, quirky, and at times
                                 absurdly humorous style. If I can make a person smile, laugh, and learn with my
                                 projects, then I consider that a job well done.
@@ -146,8 +156,8 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <img src="images/portrait.jpg" class="rounded img-fluid mx-auto d-block shadow" width="400" alt="...">
+                    <div class="col-lg-4 p-3">
+                        <img src="images/portrait_sd_round.jpeg" class="rounded img-fluid mx-auto d-block shadow" width="400" alt="...">
                     </div>
                 </div>
             </main>
