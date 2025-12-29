@@ -1,0 +1,139 @@
+/* Nav */
+.name-title {
+  color: #00A3BA;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.name-title:hover {
+  opacity: 90%;
+}
+
+#navbarToggle a {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color:grey;
+}
+
+#navbarToggle .active {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: #00A3BA;
+}
+
+/* This is to override the default 'blue' background highlight
+for when a color mode is selected */
+.dropdown-item.active
+{
+  background-color: transparent;
+}
+
+.btn-link
+{
+    color:grey;
+}
+
+/* Headers */
+h1 {
+  color: #00A3BA;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+h2 {
+  color: #00A3BA;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+h3 {
+  color: #00A3BA;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+h4 {
+  color:grey;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+/* Scrollspy */
+#navbar-tableofcontents .nav-link{
+  font-family: 'Oswald', sans-serif;
+  color:grey;
+  opacity: 0.88;
+}
+
+#navbar-tableofcontents .nav-link:hover{
+  opacity: 1;
+}
+
+#navbar-tableofcontents .active {
+  border-right: 3px solid #00A3BA ;
+  color:#00A3BA;
+  font-weight: bold;
+}
+
+/* Quick Scroll Button */
+#quick-scroll-btn a {
+  color:#00A3BA;
+}
+
+/* Project Navigation */
+#project-navigation a {
+  font-family: 'Oswald', sans-serif;
+  color:grey;
+  font-size: 20px;
+  opacity: 0.88;
+}
+
+#project-navigation a:hover {
+  opacity: 1.0;
+}
+
+/* Cards */
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+}
+
+.card:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card img{
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover img {
+  transform: scale(1.02);
+}
+
+/* Images */
+.img-box {
+  overflow: hidden;
+}
+
+.img-box a img {
+    margin: 5px 0px 5px 0px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.img-box a img:hover {
+    transform: scale(1.02);
+}
