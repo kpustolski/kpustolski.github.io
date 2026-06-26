@@ -4,4 +4,4 @@ Kpustolski's github.io website repository.
 See website at [https://kpustolski.github.io/](https://kpustolski.github.io/).
 
 ## Screenshots
-<img width="400" alt="Screenshot 2025-12-29 at 2 07 38 PM" src="https://github.com/user-attachments/assets/173c36ef-9036-43be-97e1-d8b268b7a73d" />
+<img width="400" alt="website-6-25-2026" src="https://github.com/user-attachments/assets/43b00f6f-daaa-487a-b093-4b22e748b0c3" />
